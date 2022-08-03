@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+<view name="splash">
+
+<splash name="splash">
+<backgroundColor>ffffff</backgroundColor>
+</splash>
+
+<image name="background">
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/carga.png</path>
+<zIndex>96</zIndex>
+</image>
+				
+<image name="progressbar">
+<origin>0 0</origin>
+<pos>0.334 0.695</pos>
+<size>0.3 0.026</size>
+<color>f5690d</color>
+
+<roundCorners>0.02</roundCorners>
+</image>
+
+<image name="progressbar:active">
+<tile>true</tile>
+<path>./art/progress.png</path>
+<color>f5690d</color>
+<zIndex>86</zIndex>
+</image>
+
+
+<text name="label">
+<linearSmooth>true</linearSmooth>
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<pos>0.335 0.725</pos>			
+<color>f5690d</color>
+<fontSize>0.020</fontSize>
+<size>0.160 0.04</size>
+<zIndex>100</zIndex>
+</text>
+</view>	
+</theme>
